@@ -1,0 +1,93 @@
+{
+    "flowers": [
+        {
+            "id": 1,
+            "commonName": "Lily",
+            "color": "white"
+        },
+        {
+            "id": 2,
+            "commonName": "Rose",
+            "color": "red"
+        },
+        {
+            "id": 3,
+            "commonName": "Orchid",
+            "color": "purple"
+        },
+        {
+            "id": 4,
+            "commonName": "Daisy",
+            "color": "white"
+        },
+        {
+            "id": 5,
+            "commonName": "Daffodil",
+            "color": "yellow"
+        },
+        {
+            "id": 6,
+            "commonName": "Forget-me-not",
+            "color": "blue"
+        },
+        {
+            "id": 7,
+            "commonName": "Chrysanthemum",
+            "color": "yellow"
+        },
+        {
+            "id": 8,
+            "commonName": "Pansy",
+            "color": "blue"
+        },
+        {
+            "id": 9,
+            "commonName": "Tulip",
+            "color": "yellow"
+        },
+        {
+            "id": 10,
+            "commonName": "Sunflower",
+            "color": "yelow"
+        }
+    ],
+    "nurseries": [],
+    "distributors": [],
+    "retailers": [
+        {
+            "id": 1,
+            "name": "Crystal's Flower Shop",
+            "city": "Nashville",
+            "state": "TN",
+            "address": "123 Main St."
+        },
+        {
+            "id": 2,
+            "name": "Kristen's Flower Shop",
+            "city": "Nashville",
+            "state": "TN",
+            "address": "234 Main St."
+        },
+        {
+            "id": 3,
+            "name": "Clavin's Flower Shop",
+            "city": "Nashville",
+            "state": "TN",
+            "address": "345 Main St."
+        },
+        {
+            "id": 4,
+            "name": "Nick's Flower Shop",
+            "city": "Nashville",
+            "state": "TN",
+            "address": "456 Main St."
+        },
+        {
+            "id": 5,
+            "name": "Michael's Flower Shop",
+            "city": "Nashville",
+            "state": "TN",
+            "address": "567 Main St."
+        }
+    ]
+}
