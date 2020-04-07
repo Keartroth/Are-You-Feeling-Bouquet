@@ -51,28 +51,81 @@
             "color": "yelow"
         }
     ],
-    "nurseries": [],
+    "nurseries": [
+        {
+            "id": 1,
+            "name": "Alabama Nursery",
+            "products": [
+                1,
+                2
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Tennessee Nursery",
+            "products": [
+                3,
+                4
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Mississippi Nursery",
+            "products": [
+                5,
+                6
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Georgia Nursery",
+            "products": [
+                7,
+                8
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Florida Nursery",
+            "products": [
+                9,
+                10
+            ]
+        }
+    ],
     "distributors": [
         {
             "id": 1,
             "name": "Steve's Flower Distro",
             "city": "Nashville",
             "state": "TN",
-            "address": "123 Main St."
+            "address": "123 Main St.",
+            "nurseryIDs": [
+                1,
+                2
+            ]
         },
         {
             "id": 2,
             "name": "Mo's Flower Distro",
             "city": "Chicago",
             "state": "IL",
-            "address": "234 Main St."
+            "address": "234 Main St.",
+            "nurseryIDs": [
+                3,
+                4
+            ]
         },
         {
             "id": 3,
             "name": "Madi's Flower Distro",
             "city": "Los Angeles",
             "state": "CA",
-            "address": "345 Main St."
+            "address": "345 Main St.",
+            "nurseryIDs": [
+                1,
+                5
+            ]
         }
     ],
     "retailers": [
