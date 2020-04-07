@@ -52,42 +52,69 @@
         }
     ],
     "nurseries": [],
-    "distributors": [],
-    "retailers": [
+    "distributors": [
         {
             "id": 1,
-            "name": "Crystal's Flower Shop",
+            "name": "Steve's Flower Distro",
             "city": "Nashville",
             "state": "TN",
             "address": "123 Main St."
         },
         {
             "id": 2,
+            "name": "Mo's Flower Distro",
+            "city": "Chicago",
+            "state": "IL",
+            "address": "234 Main St."
+        },
+        {
+            "id": 3,
+            "name": "Madi's Flower Distro",
+            "city": "Los Angeles",
+            "state": "CA",
+            "address": "345 Main St."
+        }
+    ],
+    "retailers": [
+        {
+            "id": 1,
+            "name": "Crystal's Flower Shop",
+            "city": "Nashville",
+            "state": "TN",
+            "address": "123 Main St.",
+            "distributorsID": 1
+        },
+        {
+            "id": 2,
             "name": "Kristen's Flower Shop",
             "city": "Nashville",
             "state": "TN",
-            "address": "234 Main St."
+            "address": "234 Main St.",
+            "distributorsID": 1
         },
         {
             "id": 3,
             "name": "Clavin's Flower Shop",
             "city": "Nashville",
             "state": "TN",
-            "address": "345 Main St."
+            "address": "345 Main St.",
+            "distributorsID": 2
         },
         {
             "id": 4,
             "name": "Nick's Flower Shop",
             "city": "Nashville",
             "state": "TN",
-            "address": "456 Main St."
+            "address": "456 Main St.",
+            "distributorsID": 2
         },
         {
             "id": 5,
             "name": "Michael's Flower Shop",
             "city": "Nashville",
             "state": "TN",
-            "address": "567 Main St."
+            "address": "567 Main St.",
+            "distributorsID": 3
         }
     ]
 }
