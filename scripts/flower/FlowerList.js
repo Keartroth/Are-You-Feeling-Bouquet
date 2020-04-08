@@ -10,6 +10,6 @@ const render = (flower) => {
 
 export const FlowerList = () => {
     const flowerArray = useFlowers();
-    headerContentTarget.innerHTML = `<h2 class="bold">List of Available Flowers</h2>`
+    headerContentTarget.innerHTML = `<h2 class="bold">Available Flowers</h2>`
     flowerArray.map(flower => render(flower))
 }
