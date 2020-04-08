@@ -51,46 +51,110 @@
             "color": "yelow"
         }
     ],
-    "nurseries": [
+    "nurseryFlower": [
         {
             "id": 1,
-            "name": "Alabama Nursery",
-            "products": [
-                1,
-                2
-            ]
+            "nurseryId": 1,
+            "flowerId": 1
         },
         {
             "id": 2,
-            "name": "Tennessee Nursery",
-            "products": [
-                3,
-                4
-            ]
+            "nurseryId": 1,
+            "flowerId": 2
         },
         {
             "id": 3,
-            "name": "Mississippi Nursery",
-            "products": [
-                5,
-                6
-            ]
+            "nurseryId": 2,
+            "flowerId": 3
         },
         {
             "id": 4,
-            "name": "Georgia Nursery",
-            "products": [
-                7,
-                8
-            ]
+            "nurseryId": 2,
+            "flowerId": 4
         },
         {
             "id": 5,
-            "name": "Florida Nursery",
-            "products": [
-                9,
-                10
-            ]
+            "nurseryId": 3,
+            "flowerId": 5
+        },
+        {
+            "id": 6,
+            "nurseryId": 3,
+            "flowerId": 6
+        },
+        {
+            "id": 7,
+            "nurseryId": 4,
+            "flowerId": 7
+        },
+        {
+            "id": 8,
+            "nurseryId": 4,
+            "flowerId": 8
+        },
+        {
+            "id": 9,
+            "nurseryId": 5,
+            "flowerId": 9
+        },
+        {
+            "id": 10,
+            "nurseryId": 5,
+            "flowerId": 10
+        }
+    ],
+    "nurseries": [
+        {
+            "id": 1,
+            "name": "Alabama Botanical Nursery"
+        },
+        {
+            "id": 2,
+            "name": "Tennessee Botanical Nursery"
+        },
+        {
+            "id": 3,
+            "name": "Mississippi Botanical Nursery"
+        },
+        {
+            "id": 4,
+            "name": "Georgia Botanical Nursery"
+        },
+        {
+            "id": 5,
+            "name": "Florida Botanical Nursery"
+        }
+    ],
+    "nurseryDistributor": [
+        {
+            "id": 1,
+            "distributorId": 1,
+            "nurseryId": 1
+        },
+        {
+            "id": 2,
+            "distributorId": 1,
+            "nurseryId": 2
+        },
+        {
+            "id": 3,
+            "distributorId": 2,
+            "nurseryId": 3
+        },
+        {
+            "id": 4,
+            "distributorId": 2,
+            "nurseryId": 4
+        },
+        {
+            "id": 5,
+            "distributorId": 3,
+            "nurseryId": 1
+        },
+        {
+            "id": 6,
+            "distributorId": 3,
+            "nurseryId": 5
         }
     ],
     "distributors": [
@@ -99,33 +163,21 @@
             "name": "Steve's Flower Distro",
             "city": "Nashville",
             "state": "TN",
-            "address": "123 Main St.",
-            "nurseryIDs": [
-                1,
-                2
-            ]
+            "address": "123 Main St."
         },
         {
             "id": 2,
             "name": "Mo's Flower Distro",
             "city": "Chicago",
             "state": "IL",
-            "address": "234 Main St.",
-            "nurseryIDs": [
-                3,
-                4
-            ]
+            "address": "234 Main St."
         },
         {
             "id": 3,
             "name": "Madi's Flower Distro",
             "city": "Los Angeles",
             "state": "CA",
-            "address": "345 Main St.",
-            "nurseryIDs": [
-                1,
-                5
-            ]
+            "address": "345 Main St."
         }
     ],
     "retailers": [
